@@ -35,7 +35,7 @@ export const hero = {
   tagline:
     "I help brands connect with the people behind the screen — turning online curiosity into campaigns that actually grow.",
   // Optional: a portrait image. Drop a file in /public and update the path.
-  portrait: "/portrait.png",
+  portrait: `${import.meta.env.BASE_URL}portrait.png`,
 };
 
 // Small stat row under the hero. Replace the bracketed numbers as you grow.
@@ -105,7 +105,7 @@ export const projects = [
       "[Add a 1–2 sentence summary of the SEO work you delivered for MVC Digital — the scope, your approach, and the outcome.]",
     result: "[KEY RESULT — e.g. +X% organic traffic in N months]",
     href: "#", // [LINK TO CASE STUDY / LIVE SITE]
-    image: "/work-1.jpg", // [REPLACE WITH PROJECT IMAGE]
+    image: `${import.meta.env.BASE_URL}work-1.jpg`, // [REPLACE WITH PROJECT IMAGE]
   },
   {
     id: "project-2",
@@ -117,7 +117,7 @@ export const projects = [
       "[Short description of the campaign — the client, the goal, and what you did.]",
     result: "[KEY RESULT — e.g. X% lower cost per lead]",
     href: "#",
-    image: "/work-2.jpg",
+    image: `${import.meta.env.BASE_URL}work-2.jpg`,
   },
   {
     id: "project-3",
@@ -129,13 +129,13 @@ export const projects = [
       "[Short description of the campaign — the client, the goal, and what you did.]",
     result: "[KEY RESULT — e.g. Nx return on ad spend]",
     href: "#",
-    image: "/work-3.jpg",
+    image: `${import.meta.env.BASE_URL}work-3.jpg`,
   },
 ];
 
 // About — your real bio, split into paragraphs for nicer rhythm.
 export const about = {
-  portrait: "/about.png",
+  portrait: `${import.meta.env.BASE_URL}about.png`,
   paragraphs: [
     "I have always been fascinated by how brands connect with people online. That curiosity led me into digital marketing, and now I'm ready to help businesses grow their online presence.",
     "Right now, I'm building my foundation through my MBA at Amity University Online and gaining hands-on, practical training at the Web Marketing Academy (WMA) in Bangalore. I focus on creating marketing campaigns that actually work — whether that means optimizing a website for SEO, writing clear content, or setting up targeted Google and Meta ad campaigns.",
